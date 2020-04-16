@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+     <style>
+
+         body , html {
+             padding: 0;
+             margin: 0;
+         }
+    main {
+        width: 70%;
+        margin: 0 auto;
+    }
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .twitter {
+        display: flex;
+        height: 66px;
+        background-color: beige;
+    }
+
+    .twitter-bird {
+        margin-left:auto ;
+        margin-right: auto;
+    }
+
+    .twitterm li:not(:last-child):not(.twitter-bird) {
+        margin-right: 10px;
+    }
+     </style>
+</head>
+<body>
+    <main>
+        <nav>
+            <ul class="twitter" role="navigation">
+                <div style="display: flex;" class="twitter-bird">
+                    <li class="twitter-bird"><i class="fa fa-home">Home</i></li>
+                <li class="twitter-bird"><i class="fa fa-envelope-o">Message</i></li>
+                <li class="twitter-bird"><i class="fa fa-bell-o">Notification</i></li>
+                </div>
+                <li class="twitter-bird"><i class="fa fa-twitter"></i></li>
+                <li class="twitter-bird"><form action="#"><input type="text" name="" id="" placeholder="search"><i class="fa fa-search"></i></form></i></li>
+                <li><i class="fa fa-user"></i></li>
+                <li><button>Tweet</button></li>
+            </ul>
+        </nav>
+    </main>
+</body>
+</html>
